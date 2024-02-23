@@ -1,0 +1,30 @@
+.planet-card {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin: 20px;
+    padding: 20px;
+    width: calc(33.33% - 40px);
+    max-width: 300px;
+    transition: transform 0.3s ease;
+  }
+  
+  .planet-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .planet-card h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .planet-card p {
+    margin: 5px 0;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .planet-card {
+      width: 100%;
+    }
+  }
+  
